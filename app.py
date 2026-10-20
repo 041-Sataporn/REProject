@@ -9,7 +9,7 @@ import streamlit as st
 # ----------------------------------------------------------------------------
 # ตั้งค่า
 # ----------------------------------------------------------------------------
-MODEL_FILE = "test.joblib"
+MODEL_FILE = "fraud_model.joblib"
 SCALER_FILE = "scaler.joblib"  # ใช้เมื่อ scaler ไม่ได้อยู่ในไฟล์โมเดล
 
 DEFAULT_FEATURES = ["Time"] + [f"V{i}" for i in range(1, 29)] + ["Amount"]
